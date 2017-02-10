@@ -1,0 +1,205 @@
+body {
+	background-image: url("../images/bg.png");
+}
+
+.container {
+	width: auto;
+}
+
+#main {
+	position: relative;
+	top: 0;
+	left: 0;
+}
+
+#info {
+	position: absolute;
+	font-family: 'Lato', sans-serif;
+	top: 0;
+	left: 5%;
+	width: 50%;
+	color: #fff;
+}
+
+#title {
+	color: #fff;
+	text-transform: uppercase;
+}
+
+p {
+	font-size: 20px;
+}
+
+p a {
+	color: #ffe900;
+}
+
+p a:hover {
+	text-decoration: none;
+	color: #fcfc4b;
+}
+
+p a:visited {
+	text-decoration: none;
+	color: #ffe900;
+}
+
+i {
+	padding-right: 5px;
+	color: #ffe900;
+}
+
+.features {
+	padding: 15px;
+	width: 700px;
+}
+
+.features-text {
+	font-size: 18px;
+}
+
+#iphone-img {
+	position: absolute;
+	z-index: 10;
+	height: 750px;
+}
+
+#screens {
+	position: relative;
+}
+
+#weather-img, #shuttles-img, #dining-img, #events-img, #links-img, #news-img, #map-img {
+	position: absolute;
+	z-index: 15;
+	height: 560px;
+}
+
+.active {
+	background-color: rgba(22, 41, 74, 0.8);
+}
+
+#features-banner, #features-carousel {
+	display: none;
+}
+
+.carousel-caption {
+	background: rgba(0, 0, 0, 0.8);
+	left: 0 !important;
+	right: 0 !important;
+	padding-bottom: 20px !important;
+	margin-bottom: 20px;
+}
+
+.carousel-indicators {
+	bottom: 0px !important;
+}
+
+.carousel-indicators li {
+	border: 1px solid #16294a!important;
+}
+
+.carousel-indicators .active{
+	background-color: #16294a !important;
+}
+
+#features-carousel .fa {
+	font-size: 20px;
+}
+
+.rwd-break {
+	display: none;
+}
+
+@media screen and (max-width: 382px) {
+	.rwd-break {
+		display: block;
+	}
+}
+
+@media screen and (max-width: 657px) {
+	.features, #iphone {
+		display: none;
+	}
+	#info {
+		position: static;
+		text-align: center;
+		width: 100%;
+		left: 0;
+		padding-bottom: 30px;
+	}
+	#title {
+		margin-top: 50px;
+		margin-bottom: 30px;
+	}
+	#features {
+		display: block;
+	}
+	#features-banner {
+		display: block;
+		position: absolute;
+		background-color: #ffc400;
+		padding: 0px 5px 5px 5px;
+		color: #fff;
+		text-align: center;
+		font-family: 'Lato', sans-serif;
+		text-transform: uppercase;
+		left: 0;
+		width: 100%;
+		z-index: 1;
+	}
+	#features-carousel {
+		display: block;
+		margin-top: 60px;
+		position: absolute;
+		width: 100%;
+		left: 0;
+	}
+}
+
+@media screen and (min-width: 658px) and (max-width: 991px) {
+	#info {
+		left: 0;
+	}
+	#title {
+		margin-top: 27%;
+	}
+	#iphone-img {
+		margin-top: 50px; 
+		margin-left: 365px;
+	}
+	#weather-img, #shuttles-img, #dining-img, #events-img, #links-img, #news-img, #map-img {
+		margin-top: 147px;
+		margin-left: 399px;
+	}
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+	#title {
+		margin-top: 20%;
+	}
+	#iphone-img {
+		margin-top: 3.5%;
+		margin-left: 550px;
+	}
+	#weather-img, #shuttles-img, #dining-img, #events-img, #links-img, #news-img, #map-img {
+		margin-top: 13.8%;
+		margin-left: 584px;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	#title {
+		margin-top: 17%;
+	}
+	#iphone-img {
+		margin-top: 3%;
+		margin-left: 700px;
+	}
+	#weather-img, #shuttles-img, #dining-img, #events-img, #links-img, #news-img, #map-img {
+		margin-top: 11.5%;
+		margin-left: 734px; 
+	}
+}
+
+
+
