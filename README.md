@@ -1,4 +1,4 @@
-# now@ucsandiego
-now@ucsandiego Mobile App Marketing Page
+# Campus Mobile App
+Campus Mobile App Marketing Page
 
 Preview at: https://christywong.github.io/campus-mobile-marketing/
