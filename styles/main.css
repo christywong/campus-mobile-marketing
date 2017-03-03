@@ -4,7 +4,7 @@ html, body {
 }
 
 body {
-    background-image: url("http://res.cloudinary.com/dnwcoe12h/image/upload/v1488400338/bg_wmchfi.png");
+    background-image: url("../images/bg.png");
 }
 
 .active {
